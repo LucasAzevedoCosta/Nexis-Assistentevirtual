@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusiMart</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+   <header class="cabecalho container">
+        <img src="{{ url_for('static', filename='img/logo-chatbot.svg') }}" alt="Logo Chatbot">
+        <div class="cabecalho__acoes">
+            
+        </div>
+   </header> 
+   <main class="main">
+        <section class="chat container" id="chat">
+            <p class="chat__bolha chat__bolha--bot">
+                Olá! Eu sou o assistente virtual da MusiMart ~<br/><br/>
+                Como posso te ajudar?
+            </p>
+        </section>
+        <section class="entrada container">
+            <div class="entrada__container">
+                <button id="mais_arquivo" aria-label="Botão de mais opções">
+                    <i class="icone icone--mais-opcoes"></i>
+                </button>
+                <input type="text" class="entrada__input" placeholder="Enviar uma mensagem" id="input">
+                <button aria-label="Botão de enviar" id="botao-enviar">
+                    <i class="icone icone--enviar-mensagem"></i>
+                </button>
+            </div>
+        </section>
+   </main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</html>

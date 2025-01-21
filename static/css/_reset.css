@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin-block: 0;
+    padding-inline: 0;
+}
+
+a {
+    color: #89b0df;
+}
+
+a:visited {
+    color: #89b0df;
+}
+
+img {
+    display: block;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+}
