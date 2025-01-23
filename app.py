@@ -3,6 +3,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 import os
 from time import sleep
+from helper import carrega, salva
 
 load_dotenv()
 
@@ -13,6 +14,8 @@ genai.configure(api_key=CHAVE_API_GOOGLE)
 app = Flask(__name__)
 app.secret_key = 'alura'
 
+contexto = carrega("dados/musimart.txt")
+
 def bot(prompt):
     maximo_tentativas = 1
     repeticao = 0
@@ -20,8 +23,15 @@ def bot(prompt):
     while True:
         try:
             prompt_do_sistema = f"""
+            # PERSONA
+
             Você é um chatbot de atendimento a clientes de um e-commerce. 
             Você não deve responder perguntas que não sejam dados do ecommerce informado!
+ 
+            Você deve usar apenas dados utilizar apenas dados que estajam dentro do 'contexto'
+
+            # CONTEXTO
+            {contexto}
             """
 
             configuracao_modelo = {
