@@ -17,6 +17,43 @@ app.secret_key = 'alura'
 
 contexto = carrega("dados/musimart.txt")
 
+def criar_chatbot():
+    personalidade = "neutro"
+
+    prompt_do_sistema = f"""
+    # PERSONA
+
+    Você é um chatbot de atendimento a clientes de um e-commerce. 
+    Você não deve responder perguntas que não sejam dados do ecommerce informado!
+
+    Você deve usar apenas dados utilizar apenas dados que estajam dentro do 'contexto'
+
+    # CONTEXTO
+    {contexto}
+
+    # PERSONALIDADE
+    {personalidade}
+    """
+
+    configuracao_modelo = {
+        "temperature" : 0.1,
+        "max_output_tokens" : 8192
+    }
+
+    llm = genai.GenerativeModel(
+        model_name=MODELO_ESCOLHIDO,
+        system_instruction=prompt_do_sistema,
+        generation_config=configuracao_modelo
+    )
+
+    chatbot = llm.start_chat(history=[])
+
+    return chatbot
+
+chatbot = criar_chatbot()
+
+
+
 def bot(prompt):
     maximo_tentativas = 1
     repeticao = 0
@@ -24,35 +61,8 @@ def bot(prompt):
     while True:
         try:
             personalidade = personas[selecionar_persona(prompt)]
-
-            prompt_do_sistema = f"""
-            # PERSONA
-
-            Você é um chatbot de atendimento a clientes de um e-commerce. 
-            Você não deve responder perguntas que não sejam dados do ecommerce informado!
- 
-            Você deve usar apenas dados utilizar apenas dados que estajam dentro do 'contexto'
-
-            # CONTEXTO
-            {contexto}
-
-            # PERSONALIDADE
-            {personalidade}
-            """
-
-            configuracao_modelo = {
-                "temperature" : 0.1,
-                "max_output_tokens" : 8192
-            }
-
-            llm = genai.GenerativeModel(
-                model_name=MODELO_ESCOLHIDO,
-                system_instruction=prompt_do_sistema,
-                generation_config=configuracao_modelo
-            )
-
-            resposta = llm.generate_content(prompt)
-            return resposta.text
+            
+            return
         except Exception as erro:
             repeticao += 1
             if repeticao >= maximo_tentativas:
