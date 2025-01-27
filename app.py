@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 from time import sleep
 from helper import carrega, salva
-from selecionar_persona import personas
+from selecionar_persona import personas, selecionar_persona
 
 load_dotenv()
 
@@ -23,7 +23,7 @@ def bot(prompt):
 
     while True:
         try:
-            personalidade = personas[""]
+            personalidade = personas[selecionar_persona(prompt)]
 
             prompt_do_sistema = f"""
             # PERSONA
