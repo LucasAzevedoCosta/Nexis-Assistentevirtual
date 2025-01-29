@@ -5,6 +5,7 @@ import os
 from time import sleep
 from helper import carrega, salva
 from selecionar_persona import personas, selecionar_persona
+import uuid
 
 load_dotenv()
 
@@ -16,6 +17,9 @@ app = Flask(__name__)
 app.secret_key = 'alura'
 
 contexto = carrega("dados/musimart.txt")
+
+caminho_imagem_enviada = None
+upload_folder = "imagens_temporarias"
 
 def criar_chatbot():
     personalidade = "neutro"
@@ -81,6 +85,18 @@ def bot(prompt):
                 return "Erro no Gemini: %s" % erro
 
             sleep(50)
+
+
+@app.route("/upload_imagem", methods=["POST"])
+def upload_imagem():
+    global caminho_imagem_enviada
+    if "imagem" in request.files:
+        imagem_enviada = request.files["imagem"]
+        nome_arquivo = str(uuid.uuid4()) + os.path.splitext(imagem_enviada.filename)[1]
+        caminho_arquivo = os.path.join(upload_folder, nome_arquivo)
+        imagem_enviada.save(caminho_arquivo)
+        return "Imagem enviada com sucesso", 200
+    return "Nenhum arquivo enviado", 400
 
 @app.route("/chat", methods=["post"])
 def chat():
