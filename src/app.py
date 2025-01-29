@@ -1,4 +1,4 @@
-from flask import Flask,render_template, request, Response
+from flask import Flask, render_template, request
 import google.generativeai as genai
 from dotenv import load_dotenv
 import os
@@ -33,6 +33,9 @@ def criar_chatbot():
 
     # PERSONALIDADE
     {personalidade}
+
+    # Historico
+    Acesse sempre o histórico de mensagens, e recupere informações ditas anteriormente.
     """
 
     configuracao_modelo = {
@@ -61,8 +64,17 @@ def bot(prompt):
     while True:
         try:
             personalidade = personas[selecionar_persona(prompt)]
-            
-            return
+            mensagem_do_usuario = f"""
+            Considere esta personalidade para responder a mensagem:
+            {personalidade}
+        
+            Responda a seguinte mensagem, sempre lembrando do histórico:
+            {prompt}
+            """
+
+            resposta = chatbot.send_message(mensagem_do_usuario)
+
+            return resposta.text
         except Exception as erro:
             repeticao += 1
             if repeticao >= maximo_tentativas:
