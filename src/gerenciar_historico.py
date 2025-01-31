@@ -1,6 +1,12 @@
 import google.generativeai as genai
 
-MODELO_ESCOLHIDO = "gemini-1.5-flash"   
+MODELO_ESCOLHIDO = "gemini-1.5-flash"
+
+
+def remover_mensagens_mais_antigas(historico):
+  return historico[2:]
+
+
 
 def resumir_historico(historico):
     """

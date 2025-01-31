@@ -55,49 +55,91 @@ O MusiMart se esforça para ser a plataforma de referência para músicos, ofere
 
 1. Instrumentos de Corda: Violões, guitarras, baixos e acessórios.
    - Violão Nylon Harmonicus NX40: R$ 799,00
-   - Guitarra Elétrica Sunburst Stinger Pro: R$ 6.500,00
-   - Baixo Elétrico Stratis Nova Bass 4: R$ 2.300,00
+   - Violão Aço Yamaha FG800: R$ 1.200,00
+   - Violão Elétrico Fender FA-135CE: R$ 2.500,00
+   - Violão 7 Cordas Giannini GS-350: R$ 1.800,00
+   - Violão Infantil Strinberg S100: R$ 450,00
+   - Guitarra Elétrica Fender Stratocaster Player Series: R$ 6.500,00
+   - Guitarra Elétrica Gibson Les Paul Standard: R$ 12.000,00
+   - Guitarra Elétrica Ibanez RG550: R$ 5.200,00
+   - Guitarra Elétrica Epiphone SG Standard: R$ 3.800,00
+   - Guitarra Elétrica PRS SE Custom 24: R$ 7.000,00
+   - Baixo Elétrico Fender Precision Bass: R$ 6.000,00
+   - Baixo Elétrico Ibanez SR300E: R$ 2.800,00
+   - Baixo Elétrico Yamaha TRBX174: R$ 1.900,00
+   - Baixo Elétrico Music Man StingRay: R$ 10.000,00
+   - Baixo Elétrico Hofner Ignition Violin Bass: R$ 3.500,00
    - Capa Almofadada para Violão ThunderCase: R$ 160,00
    - Cordas de Violão HarmonyTone Classic (Nylon): R$ 50,00
 
 2. Teclados e Pianos: Instrumentos para tecladistas, desde iniciantes até profissionais.
-   - Piano Digital Virtuoso PX-250: R$ 5.500,00
-   - Teclado Portátil MelodyKey 6100: R$ 1.100,00
-   - Sintetizador EchoSynth A7: R$ 6.200,00
-   - Pedal de Sustain SoundStep Classic: R$ 300,00
-   - Fone de Ouvido ClearTone Studio Pro: R$ 590,00
+   - Piano Digital Yamaha P-125: R$ 5.500,00
+   - Piano Digital Roland FP-30X: R$ 6.200,00
+   - Piano Digital Kawai ES920: R$ 8.000,00
+   - Teclado Portátil Casio CT-S300: R$ 1.100,00
+   - Teclado Arranjador Yamaha PSR-E373: R$ 1.800,00
+   - Teclado Sintetizador Korg Minilogue XD: R$ 4.500,00
+   - Teclado Sintetizador Roland Juno-DS88: R$ 7.000,00
+   - Teclado Controlador MIDI Akai MPK Mini MK3: R$ 900,00
+   - Teclado Profissional Nord Stage 3: R$ 18.000,00
+   - Teclado Infantil Casio SA-76: R$ 400,00
 
 3. Baterias e Percussão: Baterias acústicas e eletrônicas, além de instrumentos de percussão variados.
-   - Bateria Acústica ThunderBeat Pro: R$ 3.800,00
-   - Bateria Eletrônica PulseKit E-100: R$ 4.600,00
-   - Cajón Ritmo Vibe FLC-4603: R$ 420,00
-   - Prato Titan Crash 16": R$ 1.900,00
-   - Baquetas SonicStrike Pro 5A: R$ 80,00
+   - Bateria Acústica Pearl Export: R$ 4.500,00
+   - Bateria Acústica Ludwig Breakbeats: R$ 3.200,00
+   - Bateria Eletrônica Roland TD-07KV: R$ 6.000,00
+   - Bateria Eletrônica Alesis Nitro Mesh Kit: R$ 3.800,00
+   - Cajón Meinl Percussion Headliner: R$ 600,00
+   - Congas LP Aspire: R$ 1.200,00
+   - Pandeiro Meinl Headliner: R$ 250,00
+   - Prato Zildjian A Custom Crash 16": R$ 1.900,00
+   - Baquetas Vic Firth 5A: R$ 80,00
+   - Surdo de Marcação Mapex MPX: R$ 350,00
 
 4. Acessórios para Música: Equipamentos essenciais para músicos de todos os estilos.
-   - Afinador Digital TuneMaster X5: R$ 120,00
-   - Suporte para Partitura SheetPro Flex: R$ 85,00
-   - Capotraste RiffClamp Trigger: R$ 180,00
-   - Palhetas FastPick Classic (0.73 mm): R$ 25,00 (pacote com 12)
-   - Pedal de Efeito SonicDrive Distortion X1: R$ 600,00
+   - Afinador Digital Boss TU-3: R$ 300,00
+   - Capa para Guitarra Fender Deluxe: R$ 200,00
+   - Palhetas Dunlop Tortex 0.73 mm (pacote com 12): R$ 25,00
+   - Pedal de Efeito Boss DS-1 Distortion: R$ 400,00
+   - Pedal de Loop Boss RC-1: R$ 600,00
+   - Suporte para Guitarra Hercules GS414B: R$ 150,00
+   - Cabo de Áudio Monster Performer 500: R$ 120,00
+   - Cordas para Guitarra Elétrica Elixir Nanoweb 10-46: R$ 180,00
+   - Cordas para Baixo D'Addario EXL170: R$ 150,00
+   - Microfone Shure SM58: R$ 700,00
 
 5. Equipamentos de Som: Soluções de áudio para gravação e performance.
-   - Amplificador de Guitarra RockTone GX15: R$ 1.600,00
-   - Mesa de Som SoundMatrix 802: R$ 700,00
-   - Microfone Condensador ClearVoice AT2020: R$ 750,00
-   - Interface de Áudio SonicTrack 2i2 Pro: R$ 1.400,00
-   - Monitor de Estúdio BassCore RP5 G4: R$ 2.000,00 (cada)
+   - Amplificador para Guitarra Fender Champion 20: R$ 1.200,00
+   - Amplificador para Baixo Ampeg BA-110: R$ 2.000,00
+   - Mesa de Som Behringer Xenyx QX1204USB: R$ 1.500,00
+   - Interface de Áudio Focusrite Scarlett 2i2: R$ 1.200,00
+   - Monitor de Estúdio Yamaha HS5: R$ 1.800,00
+   - Microfone Condensador Audio-Technica AT2020: R$ 750,00
+   - Fone de Ouvido Sennheiser HD 280 Pro: R$ 600,00
+   - Caixa de Som JBL EON610: R$ 3.000,00
+   - Processador de Efeitos TC-Helicon VoiceLive 3: R$ 2.500,00
+   - Controlador MIDI Akai MPK249: R$ 2.800,00
 
 6. Livros e Educação Musical: Recursos educacionais para músicos e entusiastas da música.
-   - Método de Violão GuitarMaster Iniciantes: R$ 60,00
-   - Partituras Legends of Rock – Complete Edition: R$ 450,00
-   - Livro "Harmonia e Teoria Musical – Guia Completo": R$ 90,00
-   - DVD de Aulas de Bateria com João Souza (Ritmos do Brasil): R$ 40,00
-   - Material Educacional para Crianças – Notas Divertidas: R$ 70,00
+   - Método de Violão "Guitar for Dummies": R$ 80,00
+   - Partituras "The Beatles Complete": R$ 450,00
+   - Livro "Harmonia e Teoria Musical": R$ 90,00
+   - DVD "Aulas de Bateria com Dave Weckl": R$ 120,00
+   - Livro "Improvisação para Guitarra": R$ 70,00
+   - Partituras "Coldplay – Greatest Hits": R$ 300,00
+   - Livro "Piano para Iniciantes": R$ 60,00
+   - DVD "Técnicas de Canto com Roger Love": R$ 100,00
+   - Livro "Produção Musical para Iniciantes": R$ 85,00
+   - Partituras "Jazz Standards – Real Book": R$ 200,00
 
 7. Software e Tecnologia Musical: Ferramentas digitais para composição e produção musical.
-   - Software de Gravação SoundForge Studio: R$ 650,00
-   - Plugin de Efeito TonePro CLA-2A: R$ 450,00
-   - Controlador MIDI BeatMaster MK3: R$ 950,00
-   - Sampler SonicPulse Kontakt 6: R$ 2.400,00
-   - Software de Aprendizado Musical MusicaAssist Pro: R$ 800,00 (assinatura anual)
+   - Software de Gravação Ableton Live 11: R$ 2.000,00
+   - Plugin de Efeito Waves CLA-2A: R$ 450,00
+   - Controlador MIDI Novation Launchkey 49: R$ 1.200,00
+   - Sampler Native Instruments Kontakt 6: R$ 2.400,00
+   - Software de Notação Musical Sibelius: R$ 1.500,00
+   - Interface de Áudio Universal Audio Apollo Twin: R$ 6.000,00
+   - Software de Mixagem Pro Tools: R$ 3.000,00
+   - Controlador MIDI Arturia KeyLab 61: R$ 2.500,00
+   - Plugin de Sintetizador Serum: R$ 1.000,00
+   - Software de Aprendizado Yousician (Assinatura Anual): R$ 800,00

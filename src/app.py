@@ -5,6 +5,7 @@ import os
 from time import sleep
 from helper import carrega, salva
 from selecionar_persona import personas, selecionar_persona
+from gerenciar_historico import remover_mensagens_mais_antigas
 import uuid
 from gerenciar_imagem import gerear_imagem_gemini
 
@@ -86,6 +87,9 @@ def bot(prompt):
                 caminho_imagem_enviada = None 
             else:
                 resposta = chatbot.send_message(mensagem_do_usuario)
+
+            if len(chatbot.history) > 10:
+                chatbot.history = remover_mensagens_mais_antigas(chatbot.history)
 
             return resposta.text
         except Exception as erro:
