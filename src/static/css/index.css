@@ -81,7 +81,7 @@ body {
     background-color: #4A42B8;
 }
 
-.chat__bolha--bot::after {
+.chat__bolha--bot::before {
     content: "";
     display: block;
 
@@ -92,7 +92,7 @@ body {
     top: 0;
     right: calc(-2.5rem - 1rem);
 
-    background-image: url(../img/icone-chatbot.svg);
+    background-image: url(../img/icone-chatbot.png);
     background-repeat: no-repeat;
     background-position: center;
 }
